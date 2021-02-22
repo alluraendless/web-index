@@ -1,0 +1,43 @@
+{
+  "corpus" : true,
+  "corpusParameters" : {
+    "blockSize" : 512,
+    "filename" : "/Users/alvin/Documents/S2/Galago/galago-3.12/core/target/appassembler/bin/wiki-small-index/corpus",
+    "mergerClass" : "org.lemurproject.galago.core.index.merge.CorpusMerger",
+    "readerClass" : "org.lemurproject.galago.core.index.corpus.CorpusReader",
+    "tokenizer" : {
+      "fields" : [ ],
+      "formats" : {
+
+      }
+    },
+    "writerClass" : "org.lemurproject.galago.core.index.corpus.CorpusFolderWriter"
+  },
+  "fieldIndex" : false,
+  "fieldIndexParameters" : {
+    "nonStemmedPostings" : true,
+    "stemmedPostings" : true,
+    "stemmer" : [ "krovetz"]
+  },
+  "galagoVersion" : "3.12",
+  "galagoVersionBuildDateTime" : "2021-02-06 18:19",
+  "indexBuildDateTime" : "2021-02-07 10:22",
+  "indexPath" : "/Users/alvin/Documents/S2/Galago/galago-3.12/core/target/appassembler/bin/wiki-small-index",
+  "inputPath" : [ "/Users/alvin/Downloads/en"],
+  "nonStemmedPostings" : true,
+  "server" : true,
+  "skipDistance" : 500,
+  "skipping" : true,
+  "stemmedCounts" : false,
+  "stemmedPostings" : true,
+  "stemmer" : [ "krovetz"],
+  "stemmerClass" : {
+    "krovetz" : "org.lemurproject.galago.core.parse.stem.KrovetzStemmer"
+  },
+  "tokenizer" : {
+    "fields" : [ ],
+    "formats" : {
+
+    }
+  }
+}
